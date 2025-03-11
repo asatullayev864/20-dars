@@ -7,6 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
             users.forEach(user => {
                 const userCard = document.createElement("div");
                 userCard.classList.add("user-card");
+                console.log("qoshildi");
+
 
                 userCard.innerHTML = `
                 <h2>${user.name}</h2>
